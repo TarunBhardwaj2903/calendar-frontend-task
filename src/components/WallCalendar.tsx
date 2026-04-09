@@ -24,7 +24,7 @@ function CalendarLayout() {
   const isMobile = useMediaQuery("(max-width: 768px)");
   const [showMobileNotes, setShowMobileNotes] = useState(false);
 
-  const bgImageUrl = MONTH_IMAGES[monthIndex]?.url;
+  const bgImageUrl = MONTH_IMAGES[monthIndex]?.bgUrl;
 
   return (
     <div
